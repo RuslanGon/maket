@@ -666,6 +666,7 @@ ul {
 }
 
 .press-btn {
+    background: #FFF;
     border-radius: 80px;
     border: 1px solid rgba(53, 83, 98, 0.20);
     color: #00413E;
@@ -676,8 +677,10 @@ ul {
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.02px;
-    padding: 17px 33px 17px 33px;
-    display: block;
+    cursor: pointer;
+    width: 112px;
+height: 54px;
+    
 
 }
 
