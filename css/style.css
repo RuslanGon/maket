@@ -962,19 +962,17 @@ visibility: hidden;
 justify-content: center;
 align-items: center;
 background-color: hsla(180, 17%, 2%, 0.29);
-width: 100%;
-height: 100%;
+width: 100vw;
+height: 100vh;
 padding: 0;
 margin: 0;
  }
-
  .modal{
     min-width: 800px;
     min-height: 800px;
     background-color: #F4F5F5;
     border-radius: 20px;
  }
-
  body.show-modal .backdrop{
 display: flex;
 opacity: 1;
