@@ -15,9 +15,17 @@ backdrop.addEventListener('click', e => {
 
 function showModal (){
     backdrop.classList.add('show-modal')
+    window.addEventListener('keydown' , onCloseEsc )
 }
 
 function hideModal (){
     backdrop.classList.remove('show-modal')
+    window.removeEventListener('keydown' , onCloseEsc )
 }
 
+
+function onCloseEsc (e) {
+    if(e.code === 'Esсape'){
+        hideModal ()
+    }
+}
