@@ -15,17 +15,20 @@ backdrop.addEventListener('click', e => {
 
 function showModal (){
     backdrop.classList.add('show-modal')
-    window.addEventListener('keydown' , onCloseEsc )
+    window.addEventListener('keydown' , 
+    onCloseEsc )
+    // document.body.style.overflow = "hidden"
 }
 
 function hideModal (){
     backdrop.classList.remove('show-modal')
     window.removeEventListener('keydown' , onCloseEsc )
+    // document.body.style.overflow = ""
 }
 
 
 function onCloseEsc (e) {
-    if(e.code === 'Esсape'){
+    if(e.code === 'Escape'){
         hideModal ()
     }
 }
