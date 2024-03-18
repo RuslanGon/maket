@@ -14,10 +14,10 @@ backdrop.addEventListener('click', e => {
 
 
 function showModal (){
-document.body.classList.add('show-modal')
+    backdrop.classList.add('show-modal')
 }
 
 function hideModal (){
-document.body.classList.remove('show-modal')
+    backdrop.classList.remove('show-modal')
 }
 
