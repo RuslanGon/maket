@@ -1005,6 +1005,8 @@ visibility: visible;
      opacity: 0;
      visibility: hidden;
      background-color: #25B895;
+     font-size: 30px;
+     border-radius: 10px;
 
  }
 
@@ -1013,4 +1015,3 @@ visibility: visible;
      opacity: 1;
      display: flex;
  }
- 
