@@ -997,3 +997,19 @@ visibility: visible;
     margin-top: 20px;
 
  }
+
+ /* ===================== */
+
+ .js-set {
+     display: none;
+     opacity: 0;
+     visibility: hidden;
+     background-color: #25B895;
+
+ }
+
+ .is-visible {
+     visibility: visible;
+     opacity: 1;
+     display: flex;
+ }
