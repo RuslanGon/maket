@@ -1016,3 +1016,15 @@ visibility: visible;
      opacity: 1;
      display: flex;
  }
+
+ /* =================skroll */
+
+ .go-top {
+position: fixed;
+left: 20px;
+top: 50%;
+transform: translateY(-50%);
+font-size: 50px;
+cursor: pointer;
+color: blue;
+ }

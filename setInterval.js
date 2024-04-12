@@ -32,10 +32,10 @@ let timeoutId = null
 // })
 
 
-setInterval(() => {
-    console.log('hello');
-    logo.classList.toggle('is-visible')
-}, 2000)
+// setInterval(() => {
+//     console.log('hello');
+//     logo.classList.toggle('is-visible')
+// }, 2000)
 
 
 
