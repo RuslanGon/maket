@@ -1017,14 +1017,19 @@ visibility: visible;
      display: flex;
  }
 
- /* =================skroll */
+ /* =================scroll */
 
  .go-top {
 position: fixed;
-left: 20px;
+right: 20px;
 top: 50%;
 transform: translateY(-50%);
 font-size: 50px;
 cursor: pointer;
 color: blue;
+display: none;
+ }
+
+ .is-show {
+    display: block;
  }
